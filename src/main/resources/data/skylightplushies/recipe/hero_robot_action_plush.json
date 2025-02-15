@@ -1,0 +1,11 @@
+{
+    "type": "minecraft:stonecutting",
+    "category": "misc",
+    "ingredient": {
+        "item": "minecraft:redstone"
+    },
+    "result": {
+        "id": "skylightplushies:hero_robot_action_plush",
+        "count": 1
+    }
+}

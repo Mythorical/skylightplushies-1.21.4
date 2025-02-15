@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "skylightplushies:block/mayor_egg"
+    },
+    "facing=east": {
+      "model": "skylightplushies:block/mayor_egg",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "skylightplushies:block/mayor_egg",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "skylightplushies:block/mayor_egg",
+      "y": 270
+    }
+  }
+}

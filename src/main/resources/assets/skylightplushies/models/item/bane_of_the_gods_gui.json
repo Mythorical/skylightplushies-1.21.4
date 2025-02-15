@@ -1,0 +1,17 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "skylightplushies:item/bane_of_the_gods_gui"
+	},
+	"display": {
+		"gui": {
+			"translation": [0, -2, 0],
+			"scale": [3.4, 3.4, 3.4]
+		},
+		"fixed": {
+			"translation": [0, -2.25, 0],
+			"scale": [3.4, 3.4, 3.4]
+		}
+	}
+}

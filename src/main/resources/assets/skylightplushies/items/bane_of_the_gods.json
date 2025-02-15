@@ -1,0 +1,23 @@
+{
+    "model": {
+      "type": "minecraft:select",
+      "cases": [
+        {
+          "model": {
+            "type": "minecraft:model",
+            "model": "skylightplushies:item/bane_of_the_gods_gui"
+          },
+          "when": [
+            "gui",
+            "ground",
+            "fixed"
+          ]
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "skylightplushies:item/bane_of_the_gods"
+      },
+      "property": "minecraft:display_context"
+    }
+  }

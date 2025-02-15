@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "skylightplushies:block/marketable_dumb",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "skylightplushies:block/marketable_dumb"
+    },
+    "facing=south": {
+      "model": "skylightplushies:block/marketable_dumb",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "skylightplushies:block/marketable_dumb",
+      "y": 270
+    }
+  }
+}

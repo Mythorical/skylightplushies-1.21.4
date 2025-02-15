@@ -1,0 +1,10 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "item": "minecraft:white_wool"
+    },
+    "result": {
+        "id": "skylightplushies:marketable_mythplus",
+        "count": 1
+    }
+}

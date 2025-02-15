@@ -1,0 +1,10 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "item": "minecraft:black_wool"
+    },
+    "result": {
+        "id": "skylightplushies:marketable_dumbminus",
+        "count": 1
+    }
+}

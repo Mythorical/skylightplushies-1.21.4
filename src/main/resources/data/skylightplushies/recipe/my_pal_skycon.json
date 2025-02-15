@@ -1,0 +1,10 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "item": "minecraft:gray_wool"
+    },
+    "result": {
+        "id": "skylightplushies:my_pal_skycon",
+        "count": 1
+    }
+}
