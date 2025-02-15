@@ -1,8 +1,6 @@
 {
     "type": "minecraft:stonecutting",
-    "ingredient": {
-        "item": "minecraft:egg"
-    },
+    "ingredient": "minecraft:egg",
     "result": {
         "id": "skylightplushies:mayor_egg",
         "count": 1

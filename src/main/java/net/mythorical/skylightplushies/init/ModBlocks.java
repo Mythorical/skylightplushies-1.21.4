@@ -24,7 +24,7 @@ import java.util.Map;
 
 public interface ModBlocks {
     Map<Block, Identifier> BLOCKS = new LinkedHashMap();
-
+    // Copy and paste one of these methods and replace the name space with your own to make a new plushie
     Block MAYOR_EGG = createBlock("mayor_egg",
             new PlushieBlock(AbstractBlock.Settings.copy(Blocks.RED_WOOL).registryKey(RegistryKey.of(RegistryKeys.BLOCK, SkylightPlushies.id("mayor_egg")))));
 
@@ -63,7 +63,7 @@ public interface ModBlocks {
     private static void createBlockItem(String name, Block block) {
         Registry.register(Registries.ITEM, SkylightPlushies.id(name), new BlockItem(block, (new Item.Settings()).registryKey(RegistryKey.of(RegistryKeys.ITEM, SkylightPlushies.id(name))).useBlockPrefixedTranslationKey()));
     }
-
+    // Copy and paste buildingItemGroup.addAfter(Insert last plushie here, Your plushie here)
     static void init() {
         BLOCKS.forEach((block, id) -> Registry.register(Registries.BLOCK, id, block));
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.FUNCTIONAL).register(buildingItemGroup -> {
@@ -75,6 +75,7 @@ public interface ModBlocks {
             buildingItemGroup.addAfter(HERO_ROBOT_ACTION_PLUSH, MARKETABLE_DUMBMINUS);
             buildingItemGroup.addAfter(MARKETABLE_DUMBMINUS, YAGI_PLUSH);
             buildingItemGroup.addAfter(YAGI_PLUSH, MARKETABLE_HARV);
+            // PASTE HERE
         });
     }
 }

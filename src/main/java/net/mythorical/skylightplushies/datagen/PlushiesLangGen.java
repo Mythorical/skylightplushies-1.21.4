@@ -13,7 +13,8 @@ public class PlushiesLangGen extends FabricLanguageProvider {
 
         super(output, registryLookup);
     }
-
+    // Copy and paste builder.add(ModBlocks.INSERT_PLUSH_NAMESPACE, "The name you want to display in game goes here");
+    // Make sure to run datagen after doing this
     public void generateTranslations(RegistryWrapper.WrapperLookup wrapperLookup, TranslationBuilder builder) {
         builder.add(ModBlocks.MARKETABLE_DUMB, "Marketable Dumb");
         builder.add(ModBlocks.MARKETABLE_MYTHPLUS, "Marketable Myth Plus");
@@ -25,6 +26,6 @@ public class PlushiesLangGen extends FabricLanguageProvider {
         builder.add(ModBlocks.MARKETABLE_HARV, "Marketable Harv");
         builder.add(ModItems.BANE_OF_THE_GODS, "Bane Of The Gods");
         builder.add(ModItems.ZANPAKUTO, "Zanpakuto");
-
+        // PASTE HERE
     }
 }

@@ -1,8 +1,6 @@
 {
     "type": "minecraft:stonecutting",
-    "ingredient": {
-        "item": "minecraft:lime_wool"
-    },
+    "ingredient": "minecraft:lime_wool",
     "result": {
         "id": "skylightplushies:yagi_plush",
         "count": 1

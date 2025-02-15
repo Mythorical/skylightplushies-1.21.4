@@ -10,7 +10,8 @@ public class PlushiesModelGen extends FabricModelProvider {
     public PlushiesModelGen(FabricDataOutput output){
         super(output);
     }
-
+    // Copy and paste: generator.registerNorthDefaultHorizontalRotation(ModBlocks.INSERT_PLUSH_NAMESPACE);
+    // Make sure to run datagen after doing this
     public void generateBlockStateModels(BlockStateModelGenerator generator) {
         generator.registerNorthDefaultHorizontalRotation(ModBlocks.MARKETABLE_MYTHPLUS);
         generator.registerNorthDefaultHorizontalRotation(ModBlocks.MARKETABLE_DUMB);
@@ -19,6 +20,7 @@ public class PlushiesModelGen extends FabricModelProvider {
         generator.registerNorthDefaultHorizontalRotation(ModBlocks.MARKETABLE_DUMBMINUS);
         generator.registerNorthDefaultHorizontalRotation(ModBlocks.YAGI_PLUSH);
         generator.registerNorthDefaultHorizontalRotation(ModBlocks.MARKETABLE_HARV);
+        // PASTE HERE
     }
 
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {

@@ -23,7 +23,7 @@ public class SkylightPlushies implements ModInitializer {
 	public void onInitialize() {
 		ModBlocks.init();
 		ModItems.init();
-
+		// If you want to make custom plushies ignore all this
 		DefaultItemComponentEvents.MODIFY.register(ctx -> ctx.modify(
 				Predicate.isEqual(ModItems.BANE_OF_THE_GODS),
 				(builder, item) -> builder.add(DataComponentTypes.ATTRIBUTE_MODIFIERS, BaneItem.createAttributeModifiers())
